@@ -18,5 +18,30 @@ const data = {
   anotherUser: typeof anotherUser,
   unique: typeof unique,
 }
-console.table(data);
+
+// console.table(data); // ! Comment this out to see above data results
+
+let score = "33abc";
+let scoreInNumber = Number(score);
+let isLogin = true;
+let isLoginInNUmber = Number(isLogin);
+let isLoginInBoolean = Boolean(isLoginInNUmber);
+
+// ! Comment out the below code to know abut data type conversions
+// console.log("Score:", typeof score); // 33abc -- string
+// console.log("Score in numbers:", typeof scoreInNumber); // NAN
+// // NAN (Not a number) -- number
+
+// console.log("isLogin:", isLogin); // true -- boolean
+// console.log("isLogin in numbers:", isLoginInNUmber); // 1 -- number
+// console.log("isLogin in boolean:", isLoginInBoolean); // true -- boolean
+
+// * Notes
+// 1 (other than 0) => true; 0 => false,
+// "" => false; "hammad" => true
+
+
+
+
+
 
