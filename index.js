@@ -40,6 +40,19 @@ let isLoginInBoolean = Boolean(isLoginInNUmber);
 // 1 (other than 0) => true; 0 => false,
 // "" => false; "hammad" => true
 
+// ! Comment out below code to see String to Number Conversions
+// console.log(1 + "2"); // 12 -- string
+// console.log("1" + 2 + 2); // 122 -- string
+// console.log(1 + 2 + "2"); // 32 -- string
+
+
+// console.log(+true); // 1 -- number
+// console.log(+""); // 0 -- number
+
+// let num1, num2, num3;
+// num1 = num2 = num3 = 2 + 2;
+// console.log(num1, num2, num3);
+
 
 
 
