@@ -53,6 +53,28 @@ let isLoginInBoolean = Boolean(isLoginInNUmber);
 // num1 = num2 = num3 = 2 + 2;
 // console.log(num1, num2, num3);
 
+// ! Comment out below code to know more about heaps and stacks 
+// Stack -- Primitive
+let myName = "Hammad"; // Hammad
+let anotherName = myName; // Hammad
+anotherName = "Ali"; // ALi
+console.log(myName, "-", anotherName); // Hammad - Ali
+
+// Heap -- Non-Primitive
+const userOne = {
+  name: "Hammad",
+  email: "hammad@gmail.com"
+}
+
+let userTwo = userOne; // {  name: "Hammad", email: "hammad@gmail.com"}
+userTwo.name = "Ali"; // {  name: "Hammad", email: "hammad@gmail.com"}
+console.log(userOne, userTwo);
+
+
+
+// * Notes
+// Primitive => Stack; Non-Primitve => Heap
+
 
 
 
