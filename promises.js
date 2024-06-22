@@ -85,29 +85,48 @@
 //   .finally(() => console.log("Promise Resolved or Rejected"));
 
 // ? Async/Await in Promises
-const promiseSeven = new Promise(function (resolve, reject) {
-  setTimeout(() => {
-    let error = true;
-    if (error) {
-      reject("Error :: Promise Seven");
-      return;
-    }
+// const promiseSeven = new Promise(function (resolve, reject) {
+//   setTimeout(() => {
+//     let error = true;
+//     if (error) {
+//       reject("Error :: Promise Seven");
+//       return;
+//     }
 
-    console.log("Async Task Completed");
-    resolve({ name: "Hammad", age: 21 }); // Connects with ".then()"
-  }, 1000)
-});
+//     console.log("Async Task Completed");
+//     resolve({ name: "Hammad", age: 21 }); // Connects with ".then()"
+//   }, 1000)
+// });
 
-const consumePromiseSeven = async () => {
-  try {
-    const response = await promiseSeven;
-    console.log(response);
-  } catch (error) {
-    console.log(error);
-  }
-}
-consumePromiseSeven();
+// const consumePromiseSeven = async () => {
+//   try {
+//     const response = await promiseSeven;
+//     console.log(response);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// consumePromiseSeven();
+
+// * Exercise
+// ? async/await
+// async function getAllUsers() {
+//   console.log("Getting Users...");
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// getAllUsers();
+
+// ? .then, .catch
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then(res => res.json())
+//   .then(data => console.log(data))
+//   .catch(err => console.log(err));
 
 
-
-// ? Callback Hell?
+// TODO: Callback Hell?
