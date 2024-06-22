@@ -1,5 +1,7 @@
 # javascript-course
 
+# JavaScript has a prototypal behavior
+
 ## OOP
 
 ### Object
