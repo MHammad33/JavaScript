@@ -37,3 +37,17 @@
 //   }
 //   console.log(i); // 0, 1, 2, 4
 // }
+
+// ? While Loop
+// let i = 0;
+// while (i < 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// ? Do While Loop
+// let i = 54;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 5);
