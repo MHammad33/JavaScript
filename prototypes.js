@@ -55,3 +55,9 @@
 // console.log(User);
 // console.log(TASupport);
 // console.log(TeachingSupport);
+
+// * Exercise
+// const name = "Hammad      ";
+// String.prototype.trueLength = function () { return this.trim().length };
+// console.log(name.length); // 12
+// console.log(name.trueLength()); // 6
