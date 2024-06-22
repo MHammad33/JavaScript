@@ -28,5 +28,19 @@
 // const userBooks = books.filter(book => book.published >= 2000);
 // console.log(userBooks);
 
-// ?
+// ? Map
+// const nums = [1, 2, 3, 4, 5, 6, 7];
+// const newNums = nums.map(num => num + 10); // [11, 12, 13, 14, 15, 16, 17]
+// console.log(newNums);
+
+// ? Chaining
+// const nums = [1, 2, 3, 4, 5, 6, 7];
+// const newNums = nums
+//   .map(num => num * 10)
+//   .map(num => num + 10)
+//   .filter(num => num > 40); // [50, 60, 70, 80]
+
+// console.log(newNums);
+
+
 // ? 
