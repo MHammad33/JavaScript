@@ -37,3 +37,21 @@
 // }
 // console.log(loginUserMessage("Hammad")); // Hammad just logged in
 // console.log(loginUserMessage()); // Someone just logged in
+
+// ? Rest Operator for functions
+// function calculateCartPrice(val1, val2, ...nums) {
+//   console.log(nums); // [400, 500]
+// }
+// calculateCartPrice(200, 300, 400, 500);
+
+// ? Objects in Functions
+// const user = { name: "Hammad", age: 21 };
+// function handleObject(anyObj) {
+//   console.log(`Username is ${anyObj.name} and age is ${anyObj.age}`);
+// }
+// handleObject(user); // Username is Hammad and age is 21
+
+// ? Arrays in Functions
+// const arr = [1, 2, 3, 4, 5];
+// function getSecondElemOfArr(anyArr) { return anyArr[1] };
+// console.log(getSecondElemOfArr(arr)); // 2
