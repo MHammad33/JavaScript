@@ -83,5 +83,28 @@
 // console.log(user.hasOwnProperty("name")); // true
 // console.log(user.hasOwnProperty("email")); // false
 
+// ? Destructuring in Objects
+// const course = {
+//   courseName: "JavaScript",
+//   price: 999,
+//   courseInstructor: "Hammad"
+// }
+
+// const { courseInstructor } = course;
+// const { courseInstructor: instructor } = course;
+// console.log(courseInstructor); // Hammad
+// console.log(instructor); // Hammad
+
+// ? JSON to Objects
+// const data = {
+//   "name": "Hammad",
+//   "course": "JavaScript",
+//   "price": "free"
+// }
+// const jsonData = JSON.stringify(data); // JSON
+// const objData = JSON.parse(jsonData); // OBJECT
+// console.log(jsonData);
+// console.log(objData);
+
 // ? Singleton (When object made using constructor)
 // const user = Object.create()
