@@ -43,4 +43,16 @@
 // console.log(newNums);
 
 
-// ? 
+// ? Reduce
+// const nums = [1, 2, 3, 4, 5, 6, 7];
+// const newNums = nums.reduce((acc, curr) => acc + curr, initialVal = 0); // Sum: 28
+// console.log(newNums);
+
+// * Exercise
+// const fruits = ["mango", "banana", "apple", "mango", "pineapple", "mango", "banana"];
+
+// const fruitsList = fruits.reduce((accum, currVal) => {
+//   accum[currVal] = (accum[currVal] || 0) + 1;
+//   return accum;
+// }, {});
+// console.log(fruitsList);
