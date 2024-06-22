@@ -55,3 +55,18 @@
 // const arr = [1, 2, 3, 4, 5];
 // function getSecondElemOfArr(anyArr) { return anyArr[1] };
 // console.log(getSecondElemOfArr(arr)); // 2
+
+// ? Immeditialtely Invoked Function Expression (IIFE)
+// Named IIFE
+(function add() {
+  // To avoid global scope variables pollution
+  console.log("Hello, World");
+})(); // if not entered semi color the next IIFE will not execute
+
+// Anonymous IFFE
+((name) => {
+  console.log("Hello", name);
+})("Hammad");
+
+// * Notes
+// If you have to write 2 IIFE's, then don't forget to add semicolon after IIFE.
