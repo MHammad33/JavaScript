@@ -69,4 +69,8 @@
 // val1 = undefined ?? 15; // 15
 // val1 = null ?? 20 ?? 10; // 20
 
-// console.log(val1); 
+// console.log(val1);
+
+// ? Ternary Operator : condition ? true : false
+// const teaPrice = 20;
+// teaPrice >= 10 ? console.log("More than 10") : console.log("Less than 10");
