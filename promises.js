@@ -84,17 +84,30 @@
 //   .then(data => console.log(data)) // Hammad
 //   .finally(() => console.log("Promise Resolved or Rejected"));
 
-// ?
+// ? Async/Await in Promises
 const promiseSeven = new Promise(function (resolve, reject) {
   setTimeout(() => {
+    let error = true;
+    if (error) {
+      reject("Error :: Promise Seven");
+      return;
+    }
+
     console.log("Async Task Completed");
     resolve({ name: "Hammad", age: 21 }); // Connects with ".then()"
   }, 1000)
 });
 
-promiseSeven
-  .then(user => user.name)
-  .then(data => console.log(data)) // Hammad
-  .finally(() => console.log("Promise Resolved or Rejected"));
+const consumePromiseSeven = async () => {
+  try {
+    const response = await promiseSeven;
+    console.log(response);
+  } catch (error) {
+    console.log(error);
+  }
+}
+consumePromiseSeven();
+
+
 
 // ? Callback Hell?
