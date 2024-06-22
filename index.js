@@ -46,6 +46,42 @@
 // user.greeting = function () { console.log(`Hello, ${this.name}`); }
 // console.log(user.greeting());
 
+// ? Objects in Objects
+// const user = {};
+// user.id = 123;
+// user.name = "Hammad";
+// user.data = { age: 21, isLoggedIn: false };
+// user.fullname = { userFullName: { firstName: "Hammad", lastName: "Afzal" } }
+// console.log(user.fullname.userFullName.firstName); // Hammad
+// console.log(user.fullname.userFullName.lastName); // Afzal
+
+// ? Merge 2 objects
+// const user1 = { name1: "Hammad", age1: 21 };
+// const user2 = { name3: "Ali", age4: 22 };
+// const user3 = { user1, user2 }; // adds objects, not merge them
+// const user4 = Object.assign({}, user1, user2);
+// const user5 = { ...user1, ...user2 };
+
+// console.log(user3);
+// console.log(user4);
+// console.log(user5);
+
+// ? Array of Objects
+// const users = [
+//   { id: 1, name: "Hammad" }, { id: 2, name: "Ali" }
+// ];
+// console.log(users[0].name);
+
+// ? Keys and Values in Objects
+// const user = { name: "Hammad", age: 21 };
+// console.log(Object.keys(user)); // [ 'name', 'age' ]
+// console.log(Object.values(user)); // [ 'Hammad', 21 ]
+// console.log(Object.entries(user)); // [ [ 'name', 'Hammad' ], [ 'age', 21 ] ]
+
+// ? Check if key is present in object
+// const user = { name: "Hammad", age: 21 };
+// console.log(user.hasOwnProperty("name")); // true
+// console.log(user.hasOwnProperty("email")); // false
 
 // ? Singleton (When object made using constructor)
 // const user = Object.create()
