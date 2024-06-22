@@ -18,6 +18,8 @@
 //   console.log(`[${arr}] -- ${index}: ${codingLanguage}`); // JS, Python, C++, JavaScript, Ruby
 // })
 
+// * For Each Loop does not return values
+
 // ? Loop through Maps
 // const map = new Map();
 // map.set("PK", "Pakistan");
