@@ -45,3 +45,16 @@
 // Event Bubbling  --> child to parent
 // Event Capturing --> parent to child
 // Stop Propagation
+
+// * Exercise
+// document.querySelector("#images").addEventListener("click", (e) => {
+//   if (e.target.tagName === "IMG") {
+//     // const parentNode = e.target.parentNode;
+//     // console.log(parentNode);
+//     // parentNode.remove();
+
+//     const parentNode = e.target.parentNode;
+//     console.log(parentNode);
+//     parentNode.parentNode.removeChild(parentNode);
+//   }
+// });
