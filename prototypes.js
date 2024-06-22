@@ -35,3 +35,23 @@
 
 // arr.Hammad();
 // arr.Ali();
+
+// ? Inheritance
+// const User = { name: "Hammad", age: 21 };
+// const Teacher = { makeVideo: true };
+// const TeachingSupport = { isAvailabe: true };
+// const TASupport = {
+//   makeAssignment: "JS",
+//   fullTime: true,
+//   __proto__: TeachingSupport // Inherits properties from Teaching Support
+// };
+
+// // * Old Syntax
+// Teacher.__proto__ = User; // Inherits properties from User
+
+// // * Modern Syntax
+// Object.setPrototypeOf(TeachingSupport, Teacher);
+
+// console.log(User);
+// console.log(TASupport);
+// console.log(TeachingSupport);
