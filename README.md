@@ -47,3 +47,19 @@ console.log(newArray);
 console.log(originalArray);
 // Output: [1] (changed)
 ```
+
+## Beyond the Basics
+
+### JSVU
+
+JavaScript Version Updater
+
+```sh
+npm i -g jsvu
+```
+
+Download Additional Tools
+
+```sh
+jsvu --os=win64 --engines=all
+```
